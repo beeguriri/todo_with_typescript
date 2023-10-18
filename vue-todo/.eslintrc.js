@@ -15,5 +15,11 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'   // 이 부분이 lf로 되어있다면 auto로 변경 
+      }
+    ]
   },
 };

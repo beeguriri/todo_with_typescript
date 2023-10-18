@@ -18,6 +18,9 @@ $ Set-ExecutionPolicy Unrestricted
 
 #프로젝트 생성
 $ vue create vue-todo
+
+#프로젝트 실행
+$ npm run serve
 ```
 ### 프로젝트 생성 시 선택옵션
 ```bash
